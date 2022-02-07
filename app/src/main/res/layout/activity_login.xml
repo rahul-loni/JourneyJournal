@@ -16,6 +16,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="30dp"/>
     <EditText
+        android:id="@+id/edit_email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Email"
@@ -23,6 +24,7 @@
         android:inputType="text"
         android:layout_marginTop="30dp"/>
     <EditText
+        android:id="@+id/edit_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Password"
@@ -38,6 +40,7 @@
         android:textColor="@color/black"
         android:textStyle="bold"
         android:textSize="22sp"
+        android:onClick="login"
         android:background="@drawable/rounded"/>
     <TextView
         android:id="@+id/forgot"
@@ -71,6 +74,7 @@
             android:textColor="@color/white"
             android:text="get register in firebase now !"
             android:textSize="18sp"
+            android:onClick="signup"
             />
 
     </LinearLayout>

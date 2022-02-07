@@ -38,24 +38,28 @@
             android:textStyle="bold"
             android:layout_marginTop="15dp"/>
         <EditText
+            android:id="@+id/name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:hint="Enter Name"
             android:textColorHint="@color/black"/>
         <EditText
+            android:id="@+id/email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:hint="Enter Email"
             android:textColorHint="@color/black"/>
         <EditText
+            android:id="@+id/password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:hint="Enter Password"
             android:textColorHint="@color/black"/>
         <EditText
+            android:id="@+id/confirmpassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
@@ -70,7 +74,14 @@
             android:textColor="@color/black"
             android:textStyle="bold"
             android:textSize="22sp"
+            android:onClick="signup"
             android:background="@drawable/rounded"/>
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="status"
+            android:layout_gravity="center"/>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="50dp"
@@ -93,6 +104,7 @@
                 android:textColor="@color/black"
                 android:text="Please Login Hare"
                 android:textSize="18sp"
+                android:onClick="txt_login"
                 />
 
         </LinearLayout>
